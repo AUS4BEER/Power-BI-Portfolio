@@ -1,28 +1,20 @@
 let
-  Source = #table(
-    type table [Last Refreshed = datetime],
-    {
-      {
-        DateTimeZone.SwitchZone(
-          DateTimeZone.LocalNow(),
-          - 5,
-          0
-        )
-      }
-    }
-  ),
-  #"Changed Type" = Table.TransformColumnTypes(
-    Source,
-    {{"Last Refreshed", type datetimezone}}
-  ),
-  #"Changed Type with Locale"
-    = Table.TransformColumnTypes(
-    #"Changed Type",
-    {{"Last Refreshed", type datetimezone}},
-    "en-US"
-  )
+    // Create a table with the current local datetimezone
+    Source = #table(
+        type table [Last Refreshed = datetimezone],
+        {
+            { DateTimeZone.LocalNow() }
+        }
+    ),
+
+    // Optional: Change type with locale (not strictly necessary for datetimezone)
+    #"Changed Type with Locale" = Table.TransformColumnTypes(
+        Source,
+        {{"Last Refreshed", type datetimezone}},
+        "en-US"
+    )
 in
-  #"Changed Type with Locale"
+    #"Changed Type with Locale"
 
 
 Then create DAX Measure: 
