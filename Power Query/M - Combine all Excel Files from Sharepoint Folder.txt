@@ -2,8 +2,8 @@ let
   // ----------------------------
   // 0) Settings 
   // ----------------------------
-  SiteUrl = "https://apmus.sharepoint.com/sites/DataandInsights/",
-  FolderUrl = "https://apmus.sharepoint.com/sites/DataandInsights/Shared Documents/Power BI Source Files/SmartRecruiters/",
+  SiteUrl = "https://fosterbiservices.sharepoint.com/sites/DataandInsights/",
+  FolderUrl = "https://fosterbiservices.sharepoint.com/sites/DataandInsights/Shared Documents/Power BI Source Files/SmartRecruiters/",
   // If your tab is consistently named, put it here (e.g., "Export", "Sheet1").
   // If null, the query uses the first visible sheet in each workbook.
   SheetName = null,

@@ -3,7 +3,7 @@ let
       n = 1,
   Source = Excel.Workbook(
     Web.Contents(
-      "https://apmus.sharepoint.com/sites/DataandInsights/Shared%20Documents/Power%20BI%20Source%20Files/DOR-AJCC%20Collab/(All)%20DOR-AJCC%20Collab_GrantExiters.xlsx"
+      "https://fosterbiservices.sharepoint.com/sites/DataandInsights/Shared%20Documents/Power%20BI%20Source%20Files/DOR-AJCC%20Collab/(All)%20DOR-AJCC%20Collab_GrantExiters.xlsx"
     ), 
     null, 
     true

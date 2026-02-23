@@ -1,5 +1,5 @@
 SiteURL
-	"https://liveyourbestlife.sharepoint.com/sites/EnterpriseAnalytics/Shared%20Documents/Power%20BI/Users/" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	"https://fosterbiservices.sharepoint.com/sites/EnterpriseAnalytics/Shared%20Documents/Power%20BI/Users/" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
 User 
 	"Steven/" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
 FileName
